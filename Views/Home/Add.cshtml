@@ -1,0 +1,20 @@
+@model Survey
+
+
+<form action="/Create" method="post">
+    <span asp-validation-for="Name"> </span>
+    <label asp-for="Name"></label>
+    <input asp-for="Name">
+     <span asp-validation-for="Location"></span>
+    <label asp-for="Location"></label>
+    <input asp-for="Location">
+     <span asp-validation-for="Language"></span>
+    <label asp-for="Language"></label>
+    <input asp-for="Language">
+     <span asp-validation-for="Comment"></span>
+    <label asp-for="Comment"></label>
+    <input asp-for="Comment"> 
+
+<button type="submit">Posto</button>
+</form>
+
